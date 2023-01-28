@@ -1,0 +1,19 @@
+.Tutorial {
+    height: 100%;
+}
+.Introduction {
+    font-size: 32px;
+    line-height: 48px;
+    font-family: IBM Plex Sans, "仿宋";
+    width: 500px;
+    margin-left: 100px;
+}
+.Illustration {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Courier New', "宋体";
+    width: 350px;
+}
+.Chess {
+    font-family: 'Noto Sans Symbols 2', '宋体';
+}

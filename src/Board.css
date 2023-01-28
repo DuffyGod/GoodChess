@@ -1,0 +1,23 @@
+.Board-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Button {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Noto Sans Symbols 2';
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    margin: 30px 15px 0px;
+    border-radius: 50%;
+}

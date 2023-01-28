@@ -1,0 +1,29 @@
+
+.accbar {
+    background-color: rgba(255, 215, 0, 0.9);
+    position: fixed;
+    top: -5px;
+    right: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px 25px 5px 20px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px solid black;
+    margin: 0px;
+}
+.accbar-banner {
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+.accbar-banner em{
+  font-family: "Noto Sans Symbols 2";
+  font-style: normal;
+  font-size: 30px;
+  }

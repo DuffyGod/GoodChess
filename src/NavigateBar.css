@@ -1,0 +1,96 @@
+.navbar {
+    background-color: rgba(255, 215, 0, 0.9);
+    height: 100%;
+    position: fixed;
+    left: -100px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 30px 5px;
+    width: 165px;
+    border-radius: 0px;
+    border: 0px solid black;
+    margin: 0px 0px 0px 0px;
+  }
+
+.navbar-banner {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 24px;
+    line-height: 25px; /* force centering */
+    word-spacing: 5px;
+    margin-bottom: 20px;
+  }
+
+.navbar-info {
+  line-height: 40px;
+}
+.navbar-icon {
+  margin-left: 15px;
+  line-height: 40px;
+  font-family: "Noto Sans Symbols 2";
+  font-style: normal;
+  font-size: 35px;
+}
+
+.navbar-banner em{
+  font-family: "Noto Sans Symbols 2";
+  font-style: normal;
+  font-size: 35px;
+  padding-left: 5px;
+}
+
+.navbar:hover{
+  left: 0px;
+}
+
+  .navbar-banner .material-icons-outlined {
+    vertical-align: top;
+    margin-top: 6px;
+    padding-right: 2px;
+    font-size: 25px !important;
+  }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+
+  .navbar-banner > .link > .material-icons {
+    vertical-align: bottom;
+    font-size: 30px !important;
+    padding-bottom: 4px;
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 800px) {
+    .navbar-banner .navbar-text {
+      display: none;
+    }
+    .navbar-banner .material-icons-outlined {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 801px) {
+    .navbar-banner .navbar-text {
+      display: block;
+    }
+    .navbar-banner .material-icons-outlined {
+      display: none;
+    }
+  }

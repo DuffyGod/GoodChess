@@ -1,0 +1,74 @@
+.menubar {
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button:hover{
+    background-color:gold;
+}
+
+h1 {
+    width: min(940px, 90%);
+    color: rgba(0,0,0,1);
+    margin-top: 40px;
+    margin-bottom: 60px;
+    /*position: absolute;
+    top: -10%;
+    left: 6.25%;*/
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-size: 72px; /* needs min(128px, 10%) but doesn't work */
+    opacity: 1;
+    text-align: left;
+}
+
+.v26_9 {
+    width: 56px;
+    height: 56px;
+    background: #fa4005;
+    opacity: 1;
+    
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+  }
+  .v26_10 {
+    width: 56px;
+    height: 56px;
+    background: #A604DF;
+    opacity: 1;
+    margin-bottom: 16px;
+    
+    border-radius: 50%;
+  }
+  .v26_11 {
+    width: 56px;
+    height: 56px;
+    background: #3AD204;
+    opacity: 1;
+    
+    border-radius: 50%;
+  }
+  .v26_23 {
+    color: rgba(0,0,0,1);
+    padding-top: 7px;
+    margin-bottom: -10px;
+    padding-left: 0px;
+    font-family: 'Noto Sans Symbols 2';
+    font-style: regular;
+    font-size: 44px;
+    opacity: 1;
+    text-align: right;
+  }
