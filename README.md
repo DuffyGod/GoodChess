@@ -1,6 +1,9 @@
-#Init:
+### Init:
+
 npm install
 
-#Launch:
+### Launch:
+
 npm start
+
 node server/main.js
